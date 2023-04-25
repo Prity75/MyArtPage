@@ -1,0 +1,77 @@
+.img-rounded {
+    width: 33%;
+    height: auto;
+}
+
+.portrait {
+    width: 20%;
+    height: auto;
+}
+
+.panel-body {
+    text-align: center;
+}
+
+.panel-body p {
+    text-decoration: solid;
+}
+
+.square {
+    width: 20%;
+    height: auto;
+}
+
+.comp {
+    width: 24.5%;
+    height: auto;
+}
+
+.logo {
+    width: 35%;
+    height: auto;
+}
+
+.logo1 {
+    width: 98%;
+    height: auto;
+}
+
+.rectangle {
+    width: 10%;
+    width: auto;
+}
+
+.log img {
+    width: 30%;
+    height: auto;
+}
+
+.log1 img {
+    width: 15%;
+    height: auto;
+}
+
+.fly img {
+    width: 100%;
+    height: auto;
+}
+
+.block {
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle {
+    background: red;
+    border-radius: 200px;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+    width: 200px;
+}
+
+#SectionName{
+    background-color: #008CBA;
+    text-align: center;
+}
