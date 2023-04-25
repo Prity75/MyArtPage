@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="art.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="container" style="background-color: aliceblue;">
+        <section class="mb-4">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+            <p class="text-center w-responsive mx-auto mb-5">Please feel free to provide feedback, which would be greatly appreciated.</p>
+            <div class="row">
+                <div class="col-sm mb-5">
+                    <form id="contact-form" name="contact-form" onsubmit="submitForm(event)">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="sm-form mb-0">
+                                    <label for="name" class="">Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="sm-form mb-0">
+                                    <label for="email" class="">Your email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="sm-form mb-0">
+                                    <label for="subject" class="">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="sm-form">
+                                    <label for="message">Your message</label>
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center text-sm-left">
+                        <a class="btn btn-primary my-4 text-center"
+                            onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event){
+          event.preventDefault();
+          alert("Successfully submitted!");
+          document.getElementById("contact-form").reset();
+        });
+      </script> -->
+
+    <div class="h3 text-center">Follow Me:</div>
+    <div class="footer ">
+
+        <div class="container my-4" style="background-color: azure;">
+            <div class="row text-center">
+                <div class="col-sm log">
+                    <a href="https://www.instagram.com/createown_art/?hl=en"><img src="img/instalogo.svg" alt=""></a>
+                </div>
+                <div class="col-sm log">
+                    <a href="https://www.facebook.com/profile.php?id=100071131542282&is_tour_completed=true"><img
+                            src="img/facebooklogo.svg" alt=""></a>
+                </div>
+                <div class="col-sm log1">
+                    <a href="https://in.pinterest.com/pritykumari14625"><img src="img/pinterest.png" alt=""></a>
+                </div>
+                <div class="col-sm log1">
+                    <a href="https://twitter.com/createown_art"><img src="img/twitter.png" alt=""></a>
+                </div>
+                <div class="col-sm ">
+                    <a href="https://www.youtube.com/channel/UCIztA4vn3igF57oUqo4_yXA"><img src="img/youtube.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="card text-center">
+        </div>
+        <div class="card-body text-center">
+            <h5 class="card-title">Createown_art</h5>
+            <div class="col-sm ">
+                <a href="#"><img src="img/gmail-gif.gif" alt=""></a>
+            </div>
+            <p class="card-text">createownart07@gmail.com</p>
+        </div>
+        <div class="card-footer text-body-secondary text-center">
+            Thankyou!!
+        </div>
+    </div>
+</body>
+</html>
