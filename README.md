@@ -1,2 +1,2 @@
 # MyArtPage
-This is my first web page
+Welcome to my art page
